@@ -18,7 +18,7 @@
 	});
 	
 	// Banner Area Height
-	function bannerHeight () {
+ 	function bannerHeight () {
 		$('.banner-area').css({'paddingTop': $('#header').height() + 30});
 	}
 	$(window).on('resize', function() {
