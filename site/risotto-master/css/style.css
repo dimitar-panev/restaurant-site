@@ -667,6 +667,40 @@ textarea.input {
 	padding-left: 10px;
 	color:#f36700;
 }
+.dinks {
+	margin-top:30px;
+}
+
+.drinks .drinks-heading {
+	position:relative;
+	z-index:10;
+}
+
+.drinks .drinks-heading:before {
+	content:"";
+	display:block;
+	position:relative;
+	top:25px;
+	height:1px;
+	width:100%;
+	border-top:1px dashed #151515;
+	z-index:-1;
+}
+
+.drinks .name {
+	display: inline-block;
+	font-family:'Cabin', sans-serif;
+	background-color: #FFF;
+	padding-right: 10px;
+	font-weight:400;
+}
+
+.drinks .price {
+	float:right;
+	background-color:#FFF;
+	padding-left: 10px;
+	color:#f36700;
+}
 
 /*------------------------------------*\
 	Reservation
