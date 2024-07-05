@@ -40,7 +40,6 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
 	font-weight:700;
-	color:#151515;
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -61,14 +60,14 @@ h4 {
 }
 
 a {
-	color:#151515;
 	-webkit-transition:0.2s color;
+	color: #f36700;
 	transition:0.2s color;
 }
 
 a:hover,
 a:focus{
-	color:#f36700;
+	color:#9c4100;
     text-decoration: none;
     outline: none;
 }
@@ -818,6 +817,7 @@ textarea.input {
 .event .event-content {
 	min-height: 160px;
 	padding-left: 175px;
+	color: white;
 }
 
 .event .event-content h3 {
